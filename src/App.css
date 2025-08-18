@@ -1,0 +1,12 @@
+.common-table{
+
+    text-transform: uppercase;
+
+    thead tr th{
+        padding: 10px;
+    }
+
+    tbody tr td{
+        font-size: 20px;
+    }
+}
