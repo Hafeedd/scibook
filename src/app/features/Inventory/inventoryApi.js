@@ -11,7 +11,7 @@ export const inventorysApi = apiSlice.injectEndpoints({
       query: (newInventory) => ({
         url: "/inventory",
         method: "POST",
-        body: newInventory,
+        body: newInventory, 
       }),
       invalidatesTags: ["inventory"],
     }),
