@@ -28,6 +28,13 @@ button {
   transition: border-color 0.25s;
 }
 
+textarea:focus,input:focus{
+  outline: 1px solid #1a1a1a;
+}
+
+input{
+  text-transform: uppercase;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
