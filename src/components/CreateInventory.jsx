@@ -3,11 +3,11 @@ import { Modal } from "./Modal";
 import {
   clearInventoryItem,
   updateInventoryItem,
-} from "../app/features/inventory/inventorySlice";
+} from "../app/features/Inventory/inventorySlice";
 import {
   useCreateInventoryMutation,
   useUpdateInventoryMutation,
-} from "../app/features/inventory/inventoryApi";
+} from "../app/features/Inventory/inventoryApi";
 import { useGetProductsQuery } from "../app/features/products/productsApi";
 
 export const CreateInventory = ({ isOpen, setIsOpen }) => {

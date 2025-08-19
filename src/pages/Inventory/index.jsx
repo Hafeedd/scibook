@@ -6,9 +6,9 @@ import { CreateInventory } from "../../components/CreateInventory";
 import {
   useDeleteInventoryMutation,
   useGetInventorysQuery,
-} from "../../app/features/inventory/inventoryApi";
+} from "../../app/features/Inventory/inventoryApi";
 import { usePopupThunk } from "../../hooks/usePopupDispatch";
-import { updateInventoryItem } from "../../app/features/inventory/inventorySlice";
+import { updateInventoryItem } from "../../app/features/Inventory/inventorySlice";
 import { useDispatch } from "react-redux";
 
 export const Inventory = () => {
